@@ -1,4 +1,4 @@
-### Script to build hexagon builtins using upstream toolchain (non linux)
+### Script to build hexagon builtins using upstream toolchain (non linux) without libc
 
 #### Steps
 
