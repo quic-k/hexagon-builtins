@@ -11,5 +11,5 @@ mkdir hexagon-builtins && cd hexagon-builtins
 # Copy the 3 script/cmake files
 cp /path/to/this/repo/hexagon-* .
 
-./build-hexagon-builtins.sh <path-to-hexagon-install-toolchain>
+./hexagon-builtins-build.sh <path-to-hexagon-install-toolchain>
 ```
