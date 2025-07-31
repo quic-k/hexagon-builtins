@@ -17,7 +17,7 @@ PATH="$TOOLCHAIN_INSTALL/bin/:$PATH" \
                   -DCMAKE_BUILD_TYPE=Release \
                   -DLLVM_CMAKE_DIR:PATH=$TOOLCHAIN_INSTALL \
                   -DCMAKE_INSTALL_PREFIX:PATH=$($TOOLCHAIN_INSTALL/bin/clang -print-resource-dir) \
-                  -C ./hexagon-builtins.cmake \
+                  -C ./hexagon-builtins-baremetal.cmake \
                   -B ./ \
                   -S ../compiler-rt
 

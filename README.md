@@ -8,7 +8,7 @@ Use following commands:
 ```
 cd /path/to/upstream/llvm-project/
 mkdir hexagon-builtins && cd hexagon-builtins
-# Copy the 3 script/cmake files
+# Copy the 2 script/cmake files
 cp /path/to/this/repo/hexagon-* .
 
 ./hexagon-builtins-build.sh <path-to-hexagon-install-toolchain>
